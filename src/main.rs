@@ -4,7 +4,14 @@
 
 mod window;
 use window::WindowOptions;
+
 fn main() {
-    let options = window::WindowOptions { title: "My Window" };
-    let window = window::create_window(options);
+    let options = window::WindowOptions { title: "My Window" ,render: render};
+    
+    let mut window = window::create_window(options);
+    
+    fn render(){
+        println!("Window Has been rendered!");
+    }
+
 }
