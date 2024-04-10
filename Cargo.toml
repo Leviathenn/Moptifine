@@ -8,4 +8,3 @@ edition = "2021"
 [dependencies]
 kiss3d = "0.35.0" 
 xmltree = "0.10.3"
-mlua = { version = "0.9.1", features = ["lua54", "vendored"] }
