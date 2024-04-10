@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <resourceManager>
+        <path>Managers/resource.lua</path>
+        <attachResourceMap>true</attachResourceMap> <!-- DO NOT DISABLE THIS!!!-->
+    </resourceManager>
+    <Pointers>
+        <ResourcePointer>
+            <name>Cube</name>
+            <Path>Objects/cube.res</Path>
+        </ResourcePointer>
+    </Pointers>
+</resources>
